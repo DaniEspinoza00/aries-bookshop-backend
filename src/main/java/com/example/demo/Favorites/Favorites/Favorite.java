@@ -21,7 +21,7 @@ public class Favorite {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Integer id;
-    @Column (name = "user")
+    @Column (name = "[user]")
     private Integer idUser;
     @Column (name = "book")
     private Integer idBook;
