@@ -33,7 +33,7 @@ public class Sale {
     private LocalDate date;
     @Column (name = "book")
     private Integer idBook;
-    @Column (name = "[user]")
+    @Column (name = "user")
     private Integer idUser;
     @Column (name = "quantity")
     private Integer quantity;

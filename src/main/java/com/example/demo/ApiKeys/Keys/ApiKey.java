@@ -17,6 +17,6 @@ public class ApiKey {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String apiKeyName;
-    @Column(name = "[keyValue]")
+    @Column(name = "keyValue")
     private String keyValue;
 }
